@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div id="myclock" class="clock"></div>
+    <div id="MyClock" class="Clock"></div>
     <script>
         function showTime() {
             VarDate = new Date();
@@ -32,8 +32,8 @@
             m = (m < 10) ? "0" + m : m;
             s = (s < 10) ? "0" + s : s;
             var time = h + ":" + m + ":" + s + " " + session;
-            Document.getElementById('myclock').innerText = time;
-            Document.getElementById('myclock').textContent = time;
+            Document.getElementById('MyClock').innerText = time;
+            Document.getElementById('MyClock').textContent = time;
 
             setTimeout(showTime, 1000);
         }
