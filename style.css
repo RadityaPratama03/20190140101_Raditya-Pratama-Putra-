@@ -1,0 +1,20 @@
+html {
+    cursor: all-scroll;
+}
+
+body {
+    background-image: url(keren.jpg);
+    background: linear-gradient(to right, #43434, #444532);
+    font-family: batmanforeveroutline;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: cyan;
+    font-size: 90px;
+    box-shadow: 1px 1px 10px;
+    padding: 0px 5px 0px 5px;
+}
