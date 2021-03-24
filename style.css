@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    background-image: url(keren.img);
     background: linear-gradient(to right, #434343, #444532);
     font-family: batmanforeveroutline;
 }
