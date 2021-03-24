@@ -4,19 +4,33 @@
 
 <head>
 
-    <meta charset="UTF-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="style.css" />
-
     <title>Tugas Jam</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            jam();
+        }
+
+        function jam() {
+            var a = document.getElementById('jam'),
+                d = new Date(),
+                h, m, s;
+            h = d.getHours();
+            m = set(d.getMinutes());
+            s = set(d.getSeconds());
+
+            setTimeout('jam', 1000);
+        }
+
+        function set(a) {
+            a = a < 10 ? '0' + a : a;
+            return a;
+        }
+    </script>
 
 </head>
 
-<body>
+<body style="font-size: 100px; font-family: Arial; color: blue; background-color: chocolate; background-size : cover; padding: 200px 450px;" id="jam">
 
-    Nama saya Raditya Pratama
 
 </body>
 
