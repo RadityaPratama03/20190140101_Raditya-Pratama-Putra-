@@ -15,13 +15,13 @@
     <div id="myclock" class="clock"></div>
     <script>
         function showtime() {
-            var date = new date();
+            var date = new Date();
             var h = date.getHours();
             var m = date.getMinutes();
             var s = date.getSeconds();
             var session = "AM";
 
-            if (h > 12) {
+            if (h >= 12) {
                 h = h - 12;
                 session = "PM";
             }
