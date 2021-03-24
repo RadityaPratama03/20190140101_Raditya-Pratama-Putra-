@@ -14,9 +14,9 @@ body {
     transform: translateX(-50%) translateY(-50%);
     color: cyan;
     font-size: 90px;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 5px;
     padding: 0px 5px 0px 5px;
-    width: 40%;
+    width: 95%;
     height: 130px;
     line-height: 130px;
     text-align: center;
